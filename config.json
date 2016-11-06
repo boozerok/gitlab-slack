@@ -1,12 +1,17 @@
 {
-	"port": 21012,
-	"slackWebhookUrl": "",
+	"port": 5000,
+	"slackWebhookUrl": "https://hooks.slack.com/services/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",
 	"gitlab": {
-		"baseUrl": "",
+		"baseUrl": "https://gitlab.com",
 		"api": {
 			"basePath": "/api/v3",
-			"token": ""
+			"token": "123"
 		},
-		"projects": {}
+		"projects": {
+            "0": {
+                "name": "cretinosportivo.bitbucket.org",
+                "channel": "#random"
+            }
+        }
 	}
 }
